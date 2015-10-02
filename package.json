@@ -2,7 +2,7 @@
   "name": "is-css-shorthand",
   "description": "Check whether a given CSS property is the shorthand form",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
