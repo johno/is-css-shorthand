@@ -1,0 +1,32 @@
+{
+  "name": "is-css-shorthand",
+  "description": "Check whether a given CSS property is the shorthand form",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/test.js | tap-dot",
+    "jshint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/is-css-shorthand.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/is-css-shorthand/issues"
+  },
+  "homepage": "https://github.com/johnotander/is-css-shorthand",
+  "dependencies": {
+    "css-shorthand-properties": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "*",
+    "tap-dot": "*",
+    "standard": "*"
+  }
+}
