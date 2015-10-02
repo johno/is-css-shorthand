@@ -15,7 +15,11 @@
     "type": "git",
     "url": "https://github.com/johnotander/is-css-shorthand.git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "shorthand",
+    "property"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/is-css-shorthand/issues"
