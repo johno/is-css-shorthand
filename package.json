@@ -1,12 +1,16 @@
 {
   "name": "is-css-shorthand",
+  "version": "1.0.1",
   "description": "Check whether a given CSS property is the shorthand form",
-  "author": "John Otander",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
+  "author": {
+    "name": "John Otander",
+    "email": "johnotander@gmail.com",
+    "url": "johnotander.com"
   },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "ava"
   },
@@ -28,6 +32,6 @@
     "css-shorthand-properties": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^0.2.0"
+    "ava": "*"
   }
 }
