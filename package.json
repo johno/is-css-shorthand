@@ -8,8 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/test.js | tap-dot",
-    "jshint": "standard"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -29,8 +28,6 @@
     "css-shorthand-properties": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "*",
-    "tap-dot": "*",
-    "standard": "*"
+    "ava": "^0.2.0"
   }
 }
